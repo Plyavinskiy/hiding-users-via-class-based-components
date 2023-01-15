@@ -12,6 +12,23 @@ class Users extends Component {
     };
   }
 
+  componentDidUpdate() {
+    // In regular JavaScript statements we can use
+    // try..catch to handle errors. For error handling
+    // in JSX code we can use error boundaries (only
+    // for Class-based Components)
+    //
+    // try {
+    //   someCodeWhichMightFail();
+    // } catch (err) {
+    //   // handle error
+    // }
+
+    if (this.props.users.length === 0) {
+      throw new Error("No users provided!");
+    }
+  }
+
   toggleUsersHandler() {
     // console.log(this);
 
