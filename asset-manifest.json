@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hiding-users-via-class-based-components/static/css/main.ba41c602.css",
+    "main.js": "/hiding-users-via-class-based-components/static/js/main.eaf1947e.js",
+    "index.html": "/hiding-users-via-class-based-components/index.html",
+    "main.ba41c602.css.map": "/hiding-users-via-class-based-components/static/css/main.ba41c602.css.map",
+    "main.eaf1947e.js.map": "/hiding-users-via-class-based-components/static/js/main.eaf1947e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba41c602.css",
+    "static/js/main.eaf1947e.js"
+  ]
+}
